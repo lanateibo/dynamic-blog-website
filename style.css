@@ -1,0 +1,172 @@
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #dfc1ec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  
+  header {
+    background-color: #b76fd9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  nav a:hover {
+    color: #5b0948;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+ 
+  #posts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: #e39ae6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+  }
+  
+  .post h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .post p {
+    font-size: 1em;
+    color: #4b0541;
+    line-height: 1.5;
+  }
+  
+  .post a {
+    color: #db34a1;
+    font-weight: bold;
+  }
+  
+  .post a:hover {
+    color: #3f0730;
+  }
+  
+ 
+  form {
+    background-color: #dda4d1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ecf0f1;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #d48aeb;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #f5b8f8;
+  }
+  
+ 
+  #post-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  #post-content {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #510933;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #dc3ce7;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #eb9ff5;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    #posts-list {
+      grid-template-columns: 1fr;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    nav a {
+      font-size: 0.9em;
+      margin: 0 10px;
+    }
+  }
