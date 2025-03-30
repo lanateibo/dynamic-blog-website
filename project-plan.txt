@@ -1,0 +1,26 @@
+Project Plan for Dynamic Blog Website
+
+1. Overview:
+   - This project aims to create a dynamic blog website with CRUD functionality: Create, Read, Update, and Delete blog posts.
+   - The website will consist of three main pages: 
+     - Homepage (index.html)
+     - Create Post Page (new-post.html)
+     - View/Edit Post Page (post.html)
+
+2. Technologies:
+   - HTML for structure
+   - CSS for styling
+   - JavaScript for handling CRUD operations and interaction
+
+3. Project Structure:
+   - index.html: Displays a list of blog posts with links to individual posts.
+   - new-post.html: Provides a form to create a new blog post.
+   - post.html: Displays a specific blog post and allows for editing or deletion.
+   - script.js: Contains JavaScript functions for creating, reading, updating, and deleting posts.
+   - styles.css: Styles the website.
+
+4. Features:
+   - Homepage will display a list of all blog posts.
+   - New Post page will allow users to create new blog posts.
+   - Post page will display a single post with options to edit or delete.
+
